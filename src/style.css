@@ -1,0 +1,14 @@
+.rest-cont {
+    /* background-color: aqua; */
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 7%;
+}
+
+.img-text {
+    margin-left: 5%;
+    margin-top: 13%;
+    font-weight: 700 ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
