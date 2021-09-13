@@ -2,6 +2,7 @@ import restaurant from '../assets/restaurant.jpg'
 
 export function mainPage(content) {
     const head = document.createElement('h1');
+    head.classList = 'rest-heading'
     head.innerText = "The Restaurant"
     content.appendChild(head)
 
