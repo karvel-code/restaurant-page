@@ -1,6 +1,6 @@
 // import _ from 'lodash'
 
-import restaurant from '../assets/restaurant.jpg'
+
 
 // function component() {
 //     const element = document.createElement('div');
@@ -13,7 +13,7 @@ import restaurant from '../assets/restaurant.jpg'
 const content = document.getElementById('content');
 // document.body.appendChild(component());
 import {mainPage} from './main_page'
-mainPage();
+mainPage(content);
 // content.appendChild(mainPage());
 // const content = document.getElementById('content');
 

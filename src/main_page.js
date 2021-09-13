@@ -1,4 +1,6 @@
-function mainPage() {
+import restaurant from '../assets/restaurant.jpg'
+
+export function mainPage(content) {
     const head = document.createElement('h1');
     head.innerText = "The Restaurant"
     content.appendChild(head)
@@ -13,4 +15,4 @@ function mainPage() {
 
 }
 
-export {mainPage};
+// export {mainPage};
