@@ -13,3 +13,22 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 200%;
 }
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    background-color: burlywood;
+}
+
+.navigation a {
+    text-decoration: none;
+    margin: 3%;
+    font-weight: 800;
+    font-size: 20px;
+    color: black;
+    
+}
+
+.navigation a:hover {
+    color: gray;
+}
