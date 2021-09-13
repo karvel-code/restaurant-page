@@ -5,14 +5,15 @@ export function mainPage(content) {
     head.innerText = "The Restaurant"
     content.appendChild(head)
 
+    const container = document.createElement('div')
+
     const img = document.createElement('img')
     img.src= restaurant
-    content.appendChild(img)
+    container.appendChild(img)
 
     const text = document.createElement('p')
     text.innerText = "The Restaurant is a high class Restaurant located in the leafy surburbs of Lavington, Nairobi - Kenya. The Restaurant offers affordable meals and drinks at an affordable price while still maintaining high quality standards of food as well as services. Be sure to visit us!"
-    content.appendChild(text)
+    container.appendChild(text)
+    content.appendChild(container)
 
 }
-
-// export {mainPage};
