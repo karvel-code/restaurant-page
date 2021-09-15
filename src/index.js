@@ -14,6 +14,15 @@ const content = document.getElementById('content');
 // document.body.appendChild(component());
 import {mainPage} from './main_page'
 mainPage(content);
+import {menuPage} from './menu'
+const menu = menuPage(content);
+
+
+const viewTab = (tab) => {
+    content.innerHTML = '';
+    content.append(navSection, tab);
+  };
+viewTab(menu)
 // content.appendChild(mainPage());
 // const content = document.getElementById('content');
 
