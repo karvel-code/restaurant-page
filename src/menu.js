@@ -14,7 +14,13 @@ export function menuPage() {
 
     const menuItemHeading = document.createElement('h5')
     menuItemHeading.innerHTML = "Grilled Steak"
+
     const menuItemDesc = document.createElement('p')
     menuItemDesc.innerText = "Grilled Steak marinated in BBQ sauce, garlic, rosemary and Basil. Slow cooked under low heat till soft."
+
+    const itemPrice = document.createElement('p')
+    itemPrice.innerText = "KES 1290"
+    menuItem.append(menuItemHeading, menuItemDesc, itemPrice)
+
 
 }
