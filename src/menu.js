@@ -8,7 +8,7 @@ export function menuPage() {
     menuHeading.innerHTML = "Our Menu"
 //div to close two items
     const firstDiv = document.createElement('div')
-    firstDiv.classList = "first container"
+    firstDiv.classList = "first-container"
 // start of div
     const menuItem = document.createElement('div')
     const imgItem = document.createElement('img')

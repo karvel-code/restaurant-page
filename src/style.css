@@ -37,3 +37,8 @@
 .navigation a:hover {
     color: gray;
 }
+
+.first-container {
+    display: flex;
+    width: 80%;
+}
