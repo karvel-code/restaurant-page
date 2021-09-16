@@ -4,7 +4,8 @@ export function menuPage() {
     const menuContainer = document.createElement('div')
     menuContainer.classList = "menu-container"
 
-    const menuHeading = document.createElement('h4')
+    const menuHeading = document.createElement('h2')
+    menuHeading.classList = "our-menu"
     menuHeading.innerHTML = "Our Menu"
 //div to close two items
     const firstDiv = document.createElement('div')
