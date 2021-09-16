@@ -50,7 +50,7 @@ export function menuPage() {
 //end of div
 //div to close two items
 const secondDiv = document.createElement('div')
-secondDiv.classList = "first-container"
+secondDiv.classList = "first-container second-cont"
 // start of div
 const menuItemThree = document.createElement('div')
 menuItemThree.classList = "menu-class"
@@ -70,8 +70,27 @@ itemPriceThree.classList = "price"
 itemPriceThree.innerText = "KES 1290"
 menuItemThree.append(menuItemHeadingThree, menuItemDescThree, itemPriceThree)
 
+//start of div
+const menuItemFour = document.createElement('div')
+menuItemFour.classList = "menu-class"
+const imgItemFour = document.createElement('img')
+imgItemFour.classList = "menu-image"
+imgItemFour.src= steak;
+menuItemFour.appendChild(imgItemFour)
+
+const menuItemHeadingFour = document.createElement('h3')
+menuItemHeadingFour.innerHTML = "Grilled Steak"
+
+const menuItemDescFour = document.createElement('p')
+menuItemDescFour.innerText = "Grilled Steak marinated in BBQ sauce, garlic, rosemary and Basil. Slow cooked under low heat till soft."
+
+const itemPriceFour = document.createElement('p')
+itemPriceFour.classList = "price"
+itemPriceFour.innerText = "KES 1290"
+menuItemFour.append(menuItemHeadingFour, menuItemDescFour, itemPriceFour)
+
 firstDiv.append(menuItem, menuItemTwo)
-secondDiv.append(menuItemThree)
+secondDiv.append(menuItemThree, menuItemFour)
 menuContainer.append(menuHeading, firstDiv, secondDiv)
 
     return menuContainer;
