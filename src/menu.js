@@ -12,6 +12,7 @@ export function menuPage() {
 // start of div
     const menuItem = document.createElement('div')
     const imgItem = document.createElement('img')
+    imgItem.classList = "menu-image"
     imgItem.src= steak;
     menuItem.appendChild(imgItem)
 
@@ -24,10 +25,11 @@ export function menuPage() {
     const itemPrice = document.createElement('p')
     itemPrice.innerText = "KES 1290"
     menuItem.append(menuItemHeading, menuItemDesc, itemPrice)
-//end of div
+    //end of div
     // start of div
     const menuItemTwo = document.createElement('div')
     const imgItemTwo = document.createElement('img')
+    imgItemTwo.classList = "menu-image"
     imgItemTwo.src= steak;
     menuItemTwo.appendChild(imgItemTwo)
 

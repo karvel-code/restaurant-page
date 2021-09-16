@@ -41,4 +41,10 @@
 .first-container {
     display: flex;
     width: 80%;
+    margin: auto;
+}
+
+.menu-image {
+    width: 200px;
+    height: 200px;
 }
