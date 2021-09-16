@@ -46,7 +46,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"menuPage\": () => (/* binding */ menuPage)\n/* harmony export */ });\nfunction menuPage() {\r\n    const menuContainer = document.createElement('div')\r\n    menuContainer.classList = \"menu-container\"\r\n\r\n    const menuHeading = document.createElement('h4')\r\n    menuHeading.innerHTML = \"Our Menu\"\r\n}\n\n//# sourceURL=webpack://restaurant-page/./src/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"menuPage\": () => (/* binding */ menuPage)\n/* harmony export */ });\n/* harmony import */ var _assets_steak_jpeg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/steak.jpeg */ \"./assets/steak.jpeg\");\n\r\n\r\nfunction menuPage() {\r\n    const menuContainer = document.createElement('div')\r\n    menuContainer.classList = \"menu-container\"\r\n\r\n    const menuHeading = document.createElement('h4')\r\n    menuHeading.innerHTML = \"Our Menu\"\r\n\r\n    const menuItem = document.createElement('div')\r\n}\n\n//# sourceURL=webpack://restaurant-page/./src/menu.js?");
 
 /***/ }),
 
@@ -57,6 +57,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"3056d112e04d2d379d17.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./assets/restaurant.jpg?");
+
+/***/ }),
+
+/***/ "./assets/steak.jpeg":
+/*!***************************!*\
+  !*** ./assets/steak.jpeg ***!
+  \***************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"710a281efdc7479d30b9.jpeg\";\n\n//# sourceURL=webpack://restaurant-page/./assets/steak.jpeg?");
 
 /***/ })
 
