@@ -3,49 +3,33 @@ import {mainPage} from './main_page'
 import {menuPage} from './menu'
 import {header} from './header'
 
-const content = document.getElementById('content');
 const heading = header();
-content.append(heading);
+const myMenu = menuPage();
+const myMainPage = mainPage();
 
-mainPage(content);
+// const menu = menuPage(content);
 
-const menu = menuPage(content);
+const content = document.querySelector('#content');
+content.append(heading)
 
-
-
-// function component() {
-//     const element = document.createElement('div');
+  const viewTab = (tab) => {
+    content.innerHTML = '';
+    content.append(heading, tab);
+  };
   
-//      // Lodash, now imported by this script
-//     element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+  const homeLink = document.getElementById('home')
   
-//     return element;
-//   }
+  homeLink.addEventListener('click', () => { viewTab(myMainPage); });
+  // menuLink.addEventListener('click', () => { viewTab(myMenu); });
+  // homeLink.addEventListener('click', () => { viewTab(myMainPage); });
+  viewTab(myMainPage);
+  
+  
 
-// document.body.appendChild(component());
-const viewTab = (tab) => {
-  content.innerHTML = '';
-  content.append(heading, tab);
-};
-viewTab(menu)
+  // content.appendChild(mainPage());
+  // const content = document.getElementById('content');
 
-const homeLink = document.getElementById('home')
-
-homeLink.addEventListener('click', () => { viewTab(); });
-
-
-
-// content.appendChild(mainPage());
-// const content = document.getElementById('content');
-
-// const div1 = document.createElement('p');
+  // const div1 = document.createElement('p');
 // div1.innerText = "Hello";
 
 // content.appendChild('div1');
-
-
-
-
-
-alert("Hello")
-

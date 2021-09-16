@@ -1,3 +1,3 @@
-export function menuPage(content) {
+export function menuPage() {
 
 }

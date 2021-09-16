@@ -1,10 +1,10 @@
-import restaurant from '../assets/restaurant.jpg'
+import restaurant from '../assets/restaurant.jpg';
 
-export function mainPage(content) {
+export function mainPage() {
+    const info = document.createElement('div')
     const head = document.createElement('h1');
     head.classList = 'rest-heading'
-    head.innerText = "The Restaurant"
-    content.appendChild(head)
+    head.innerHTML = "The Restaurant"
 
     const container = document.createElement('div')
     container.classList = 'rest-cont'
@@ -17,6 +17,8 @@ export function mainPage(content) {
     text.classList = 'img-text'
     text.innerText = "The Restaurant is a high class Restaurant located in the leafy surburbs of Lavington, Nairobi - Kenya. The Restaurant offers affordable meals and drinks at an affordable price while still maintaining high quality standards of food as well as services. Be sure to visit us!"
     container.appendChild(text)
-    content.appendChild(container)
+    info.append(head, container)
+    
 
+    return info;
 }
