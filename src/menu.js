@@ -25,6 +25,7 @@ export function menuPage() {
     menuItemDesc.innerText = "Grilled Steak marinated in BBQ sauce, garlic, rosemary and Basil. Slow cooked under low heat till soft."
 
     const itemPrice = document.createElement('p')
+    itemPrice.classList = "price"
     itemPrice.innerText = "KES 1290"
     menuItem.append(menuItemHeading, menuItemDesc, itemPrice)
     //end of div
@@ -43,6 +44,7 @@ export function menuPage() {
     menuItemDescTwo.innerText = "Grilled Steak marinated in BBQ sauce, garlic, rosemary and Basil. Slow cooked under low heat till soft."
 
     const itemPriceTwo = document.createElement('p')
+    itemPriceTwo.classList = "price"
     itemPriceTwo.innerText = "KES 1290"
     menuItemTwo.append(menuItemHeadingTwo, menuItemDescTwo, itemPriceTwo)
 //end of div
