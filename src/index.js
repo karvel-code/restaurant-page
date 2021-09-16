@@ -18,9 +18,10 @@ content.append(heading)
   };
   
   const homeLink = document.getElementById('home')
+  const menuLink = document.getElementById('menu')
   
   homeLink.addEventListener('click', () => { viewTab(myMainPage); });
-  // menuLink.addEventListener('click', () => { viewTab(myMenu); });
+  menuLink.addEventListener('click', () => { viewTab(myMenu); });
   // homeLink.addEventListener('click', () => { viewTab(myMainPage); });
   viewTab(myMainPage);
   
