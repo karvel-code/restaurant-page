@@ -11,6 +11,7 @@ export function menuPage() {
     firstDiv.classList = "first-container"
 // start of div
     const menuItem = document.createElement('div')
+    menuItem.classList = "menu-class"
     const imgItem = document.createElement('img')
     imgItem.classList = "menu-image"
     imgItem.src= steak;
@@ -28,6 +29,7 @@ export function menuPage() {
     //end of div
     // start of div
     const menuItemTwo = document.createElement('div')
+    menuItemTwo.classList = "menu-class"
     const imgItemTwo = document.createElement('img')
     imgItemTwo.classList = "menu-image"
     imgItemTwo.src= steak;
