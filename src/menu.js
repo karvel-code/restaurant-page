@@ -11,4 +11,10 @@ export function menuPage() {
     const imgItem = document.createElement('img')
     imgItem.src= steak;
     menuItem.appendChild(imgItem)
+
+    const menuItemHeading = document.createElement('h5')
+    menuItemHeading.innerHTML = "Grilled Steak"
+    const menuItemDesc = document.createElement('p')
+    menuItemDesc.innerText = "Grilled Steak marinated in BBQ sauce, garlic, rosemary and Basil. Slow cooked under low heat till soft."
+
 }
