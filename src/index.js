@@ -1,4 +1,15 @@
 // import _ from 'lodash'
+import {mainPage} from './main_page'
+import {menuPage} from './menu'
+import {header} from './header'
+
+const content = document.getElementById('content');
+const heading = header();
+content.append(heading);
+
+mainPage(content);
+
+const menu = menuPage(content);
 
 
 
@@ -10,19 +21,20 @@
   
 //     return element;
 //   }
-const content = document.getElementById('content');
+
 // document.body.appendChild(component());
-import {mainPage} from './main_page'
-mainPage(content);
-import {menuPage} from './menu'
-const menu = menuPage(content);
-
-
 const viewTab = (tab) => {
-    content.innerHTML = '';
-    content.append(navSection, tab);
-  };
+  content.innerHTML = '';
+  content.append(heading, tab);
+};
 viewTab(menu)
+
+const homeLink = document.getElementById('home')
+
+homeLink.addEventListener('click', () => { viewTab(); });
+
+
+
 // content.appendChild(mainPage());
 // const content = document.getElementById('content');
 
@@ -35,5 +47,5 @@ viewTab(menu)
 
 
 
-// alert("Hello")
+alert("Hello")
 
