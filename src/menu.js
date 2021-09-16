@@ -22,5 +22,9 @@ export function menuPage() {
     itemPrice.innerText = "KES 1290"
     menuItem.append(menuItemHeading, menuItemDesc, itemPrice)
 
+    menuContainer.append(menuHeading, menuItem)
+
+    return menuContainer;
+
 
 }
