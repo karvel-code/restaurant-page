@@ -8,4 +8,7 @@ export function menuPage() {
     menuHeading.innerHTML = "Our Menu"
 
     const menuItem = document.createElement('div')
+    const imgItem = document.createElement('img')
+    imgItem.src= steak;
+    menuItem.appendChild(imgItem)
 }
