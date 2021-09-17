@@ -26,4 +26,4 @@ function contactPage() {
   return mainContactDiv;
 }
 
-export default contactPage
+export default contactPage;

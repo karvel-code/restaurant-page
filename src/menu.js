@@ -1,6 +1,6 @@
 import steak from '../assets/steak.jpeg';
 
-export function menuPage() {
+function menuPage() {
   const menuContainer = document.createElement('div');
   menuContainer.classList = 'menu-container';
 
@@ -95,3 +95,5 @@ export function menuPage() {
 
   return menuContainer;
 }
+
+export default menuPage;

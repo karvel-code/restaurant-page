@@ -1,8 +1,8 @@
 // import _ from 'lodash'
-import { mainPage } from './main_page';
-import { menuPage } from './menu';
+import mainPage from './main_page';
+import menuPage from './menu';
 import header from './header';
-import  contactPage from './contact_us';
+import contactPage from './contact_us';
 
 const heading = header();
 const myMenu = menuPage();

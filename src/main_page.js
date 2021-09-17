@@ -1,6 +1,6 @@
 import restaurant from '../assets/restaurant.jpg';
 
-export function mainPage() {
+function mainPage() {
   const info = document.createElement('div');
   const head = document.createElement('h1');
   head.classList = 'rest-heading';
@@ -21,3 +21,5 @@ export function mainPage() {
 
   return info;
 }
+
+export default mainPage;

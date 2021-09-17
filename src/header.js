@@ -15,4 +15,4 @@ function header() {
   return container;
 }
 
-export default header
+export default header;
