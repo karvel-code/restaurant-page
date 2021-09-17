@@ -9,8 +9,6 @@ const myMenu = menuPage();
 const myMainPage = mainPage();
 const myContactPage = contactPage();
 
-// const menu = menuPage(content);
-
 const content = document.querySelector('#content');
 content.append(heading)
 
