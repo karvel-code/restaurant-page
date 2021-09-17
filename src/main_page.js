@@ -19,6 +19,5 @@ export function mainPage() {
     container.appendChild(text)
     info.append(head, container)
     
-
     return info;
 }

@@ -1,4 +1,6 @@
 export function contactPage() {
+    const mainContactDiv = document.createElement("section")
+    mainContactDiv.classList = "main-contact-div"
     const contacttDiv = document.createElement("div")
     contacttDiv.classList = "main-contact"
     const contactTitle = document.createElement("h2")
@@ -20,6 +22,7 @@ export function contactPage() {
 
     socialLinksContainer.append(facebookLink, instagramLink, twitterLink)
     contacttDiv.append(contactTitle, contactDesc, socialLinksContainer)
+    mainContactDiv.appendChild(contacttDiv)
 
-    return contacttDiv
+    return mainContactDiv
 }
