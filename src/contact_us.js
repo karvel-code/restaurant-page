@@ -10,12 +10,13 @@ export function contactPage() {
     contactDesc.classList = "contact-desc"
     contactDesc.innerText = "Feel free to reach out to us via our Phone no which is 0720183849. You can also get to us via any of our social media pages."
     const socialLinksContainer = document.createElement("div")
+    socialLinksContainer.classList = "social-links-container"
     const facebookLink = document.createElement("i")
-    facebookLink.classList = "fab fa-facebook"
+    facebookLink.classList = "fab fa-facebook get-social"
     const instagramLink = document.createElement("i")
-    instagramLink.classList = "fab fa-instagram"
+    instagramLink.classList = "fab fa-instagram get-social"
     const twitterLink = document.createElement("i")
-    twitterLink.classList = "fab fa-twitter"
+    twitterLink.classList = "fab fa-twitter get-social"
 
     socialLinksContainer.append(facebookLink, instagramLink, twitterLink)
     contacttDiv.append(contactTitle, contactDesc, socialLinksContainer)
