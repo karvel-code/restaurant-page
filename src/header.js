@@ -13,6 +13,6 @@ const header = () => {
   container.append(homeLink, menuLink, aboutLink);
 
   return container;
-}
+};
 
 export default header;

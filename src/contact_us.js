@@ -24,6 +24,6 @@ const contactPage = () => {
   mainContactDiv.appendChild(contacttDiv);
 
   return mainContactDiv;
-}
+};
 
 export default contactPage;

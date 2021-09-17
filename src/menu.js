@@ -94,6 +94,6 @@ const menuPage = () => {
   menuContainer.append(menuHeading, firstDiv, secondDiv);
 
   return menuContainer;
-}
+};
 
 export default menuPage;

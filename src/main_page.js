@@ -20,6 +20,6 @@ const mainPage = () => {
   info.append(head, container);
 
   return info;
-}
+};
 
 export default mainPage;
