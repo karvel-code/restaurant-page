@@ -19,7 +19,7 @@ content.append(heading)
   
   const homeLink = document.getElementById('home')
   const menuLink = document.getElementById('menu')
-  
+  const aboutLink = document.getElementById('about')
   homeLink.addEventListener('click', () => { viewTab(myMainPage); });
   menuLink.addEventListener('click', () => { viewTab(myMenu); });
   // homeLink.addEventListener('click', () => { viewTab(myMainPage); });
