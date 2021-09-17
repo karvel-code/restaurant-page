@@ -4,6 +4,10 @@ export function contactPage() {
     contactTitle.innerHTML = "About US"
 
     
-    // const socialLinksContainer = document.createElement("div")
-    // const facebookLink = document.createElement("a")
+    
+    const socialLinksContainer = document.createElement("div")
+    const facebookLink = document.createElement("i")
+    facebookLink.classList = "fab fa-facebook"
+    const instagramLink = document.createElement("i")
+    instagramLink.classList = "fab fa-instagram"
 }
