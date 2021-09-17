@@ -1,4 +1,3 @@
-// import _ from 'lodash'
 import mainPage from './main_page';
 import menuPage from './menu';
 import header from './header';
@@ -25,11 +24,3 @@ homeLink.addEventListener('click', () => { viewTab(myMainPage); });
 menuLink.addEventListener('click', () => { viewTab(myMenu); });
 aboutLink.addEventListener('click', () => { viewTab(myContactPage); });
 viewTab(myMainPage);
-
-// content.appendChild(mainPage());
-// const content = document.getElementById('content');
-
-// const div1 = document.createElement('p');
-// div1.innerText = "Hello";
-
-// content.appendChild('div1');
