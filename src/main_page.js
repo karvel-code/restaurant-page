@@ -1,6 +1,6 @@
 import restaurant from '../assets/restaurant.jpg';
 
-function mainPage() {
+const mainPage = () => {
   const info = document.createElement('div');
   const head = document.createElement('h1');
   head.classList = 'rest-heading';
