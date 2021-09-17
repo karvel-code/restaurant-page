@@ -10,13 +10,13 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/about_us.js":
-/*!*************************!*\
-  !*** ./src/about_us.js ***!
-  \*************************/
+/***/ "./src/contact_us.js":
+/*!***************************!*\
+  !*** ./src/contact_us.js ***!
+  \***************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"aboutPage\": () => (/* binding */ aboutPage)\n/* harmony export */ });\nfunction aboutPage() {\r\n    const aboutDiv = document.createElement(\"div\")\r\n    const aboutTitle = document.createElement(\"h2\")\r\n    aboutTitle.innerHTML = \"About US\"\r\n}\n\n//# sourceURL=webpack://restaurant-page/./src/about_us.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"contactPage\": () => (/* binding */ contactPage)\n/* harmony export */ });\nfunction contactPage() {\r\n    const aboutDiv = document.createElement(\"div\")\r\n    const aboutTitle = document.createElement(\"h2\")\r\n    aboutTitle.innerHTML = \"About US\"\r\n\r\n    \r\n    // const socialLinksContainer = document.createElement(\"div\")\r\n    // const facebookLink = document.createElement(\"a\")\r\n}\n\n//# sourceURL=webpack://restaurant-page/./src/contact_us.js?");
 
 /***/ }),
 
@@ -36,7 +36,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _main_page__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./main_page */ \"./src/main_page.js\");\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menu */ \"./src/menu.js\");\n/* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./header */ \"./src/header.js\");\n/* harmony import */ var _about_us__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./about_us */ \"./src/about_us.js\");\n// import _ from 'lodash'\r\n\r\n\r\n\r\n\r\n\r\nconst heading = (0,_header__WEBPACK_IMPORTED_MODULE_2__.header)();\r\nconst myMenu = (0,_menu__WEBPACK_IMPORTED_MODULE_1__.menuPage)();\r\nconst myMainPage = (0,_main_page__WEBPACK_IMPORTED_MODULE_0__.mainPage)();\r\nconst myAboutPage = (0,_about_us__WEBPACK_IMPORTED_MODULE_3__.aboutPage)();\r\n\r\n// const menu = menuPage(content);\r\n\r\nconst content = document.querySelector('#content');\r\ncontent.append(heading)\r\n\r\n  const viewTab = (tab) => {\r\n    content.innerHTML = '';\r\n    content.append(heading, tab);\r\n  };\r\n  \r\n  const homeLink = document.getElementById('home')\r\n  const menuLink = document.getElementById('menu')\r\n  const aboutLink = document.getElementById('about')\r\n\r\n  homeLink.addEventListener('click', () => { viewTab(myMainPage); });\r\n  menuLink.addEventListener('click', () => { viewTab(myMenu); });\r\n  aboutLink.addEventListener('click', () => { viewTab(myAboutPage); });\r\n  viewTab(myMainPage);\r\n  \r\n  \r\n\r\n  // content.appendChild(mainPage());\r\n  // const content = document.getElementById('content');\r\n\r\n  // const div1 = document.createElement('p');\r\n// div1.innerText = \"Hello\";\r\n\r\n// content.appendChild('div1');\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _main_page__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./main_page */ \"./src/main_page.js\");\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menu */ \"./src/menu.js\");\n/* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./header */ \"./src/header.js\");\n/* harmony import */ var _contact_us__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./contact_us */ \"./src/contact_us.js\");\n// import _ from 'lodash'\r\n\r\n\r\n\r\n\r\n\r\nconst heading = (0,_header__WEBPACK_IMPORTED_MODULE_2__.header)();\r\nconst myMenu = (0,_menu__WEBPACK_IMPORTED_MODULE_1__.menuPage)();\r\nconst myMainPage = (0,_main_page__WEBPACK_IMPORTED_MODULE_0__.mainPage)();\r\nconst myContactPage = (0,_contact_us__WEBPACK_IMPORTED_MODULE_3__.contactPage)();\r\n\r\n// const menu = menuPage(content);\r\n\r\nconst content = document.querySelector('#content');\r\ncontent.append(heading)\r\n\r\n  const viewTab = (tab) => {\r\n    content.innerHTML = '';\r\n    content.append(heading, tab);\r\n  };\r\n  \r\n  const homeLink = document.getElementById('home')\r\n  const menuLink = document.getElementById('menu')\r\n  const aboutLink = document.getElementById('about')\r\n\r\n  homeLink.addEventListener('click', () => { viewTab(myMainPage); });\r\n  menuLink.addEventListener('click', () => { viewTab(myMenu); });\r\n  aboutLink.addEventListener('click', () => { viewTab(myContactPage); });\r\n  viewTab(myMainPage);\r\n  \r\n  \r\n\r\n  // content.appendChild(mainPage());\r\n  // const content = document.getElementById('content');\r\n\r\n  // const div1 = document.createElement('p');\r\n// div1.innerText = \"Hello\";\r\n\r\n// content.appendChild('div1');\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
 
 /***/ }),
 

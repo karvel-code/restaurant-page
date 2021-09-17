@@ -2,12 +2,12 @@
 import {mainPage} from './main_page'
 import {menuPage} from './menu'
 import {header} from './header'
-import { aboutPage } from './about_us';
+import { contactPage } from './contact_us';
 
 const heading = header();
 const myMenu = menuPage();
 const myMainPage = mainPage();
-const myAboutPage = aboutPage();
+const myContactPage = contactPage();
 
 // const menu = menuPage(content);
 
@@ -25,7 +25,7 @@ content.append(heading)
 
   homeLink.addEventListener('click', () => { viewTab(myMainPage); });
   menuLink.addEventListener('click', () => { viewTab(myMenu); });
-  aboutLink.addEventListener('click', () => { viewTab(myAboutPage); });
+  aboutLink.addEventListener('click', () => { viewTab(myContactPage); });
   viewTab(myMainPage);
   
   
