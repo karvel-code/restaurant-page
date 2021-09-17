@@ -5,7 +5,7 @@ function contactPage() {
   contacttDiv.classList = 'main-contact';
   const contactTitle = document.createElement('h2');
   contactTitle.classList = 'contact-title';
-  contactTitle.innerHTML = 'About US';
+  contactTitle.innerHTML = 'Contact US';
 
   const contactDesc = document.createElement('p');
   contactDesc.classList = 'contact-desc';

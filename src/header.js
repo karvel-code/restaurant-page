@@ -8,7 +8,7 @@ function header() {
   menuLink.innerText = 'Menu';
   menuLink.id = 'menu';
   const aboutLink = document.createElement('a');
-  aboutLink.innerText = 'AboutUs';
+  aboutLink.innerText = 'ContactUs';
   aboutLink.id = 'about';
   container.append(homeLink, menuLink, aboutLink);
 
