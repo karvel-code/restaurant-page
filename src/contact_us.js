@@ -12,4 +12,6 @@ export function contactPage() {
     instagramLink.classList = "fab fa-instagram"
     const twitterLink = document.createElement("i")
     twitterLink.classList = "fab fa-twitter"
+
+    socialLinksContainer.append(facebookLink, instagramLink, twitterLink)
 }
