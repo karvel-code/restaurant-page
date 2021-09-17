@@ -14,4 +14,7 @@ export function contactPage() {
     twitterLink.classList = "fab fa-twitter"
 
     socialLinksContainer.append(facebookLink, instagramLink, twitterLink)
+    contacttDiv.append(contactTitle, socialLinksContainer )
+
+    return contacttDiv
 }
