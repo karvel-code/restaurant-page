@@ -1,108 +1,109 @@
 * {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .rest-cont {
-    /* background-color: aqua; */
-    display: flex;
-    width: 80%;
-    margin: auto;
-    /* margin-top: 7%; */
+  /* background-color: aqua; */
+  display: flex;
+  width: 80%;
+  margin: auto;
+
+  /* margin-top: 7%; */
 }
 
 .rest-heading {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .img-text {
-    margin-left: 5%;
-    margin-top: 8%;
-    font-weight: 700 ;
-    line-height: 200%;
+  margin-left: 5%;
+  margin-top: 8%;
+  font-weight: 700;
+  line-height: 200%;
 }
 
 .navigation {
-    display: flex;
-    justify-content: center;
-    background-color: burlywood;
+  display: flex;
+  justify-content: center;
+  background-color: burlywood;
 }
 
 .navigation a {
-    text-decoration: none;
-    margin: 3%;
-    font-weight: 800;
-    font-size: 20px;
-    color: black;
-    
+  text-decoration: none;
+  margin: 3%;
+  font-weight: 800;
+  font-size: 20px;
+  color: black;
 }
 
 .navigation a:hover {
-    color: gray;
+  color: gray;
 }
 
 .first-container {
-    display: flex;
-    width: 80%;
-    margin: auto;
+  display: flex;
+  width: 80%;
+  margin: auto;
 }
 
 .menu-image {
-    width: 50%;
-    /* height: 200px; */
+  width: 50%;
+
+  /* height: 200px; */
 }
 
 .menu-class {
-    width: 40%;
-    margin: auto;
+  width: 40%;
+  margin: auto;
 }
 
 .our-menu {
-    text-align: center;
+  text-align: center;
 }
 
 .price {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .second-cont {
-    margin-top: 5%;
+  margin-top: 5%;
 }
 
 .main-contact-div {
-    background-image: url("/assets/bg-image.webp");
-    background-repeat: no-repeat;
-    width: 100%;
-    background-size: cover;
-    height: 90vh;
-    overflow: hidden;
+  background-image: url("/assets/bg-image.webp");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  height: 90vh;
+  overflow: hidden;
 }
 
 .main-contact {
-    width: 80%;
-    margin:auto;
+  width: 80%;
+  margin: auto;
 }
 
 .contact-title {
-    text-align: center;
-    color: white;
+  text-align: center;
+  color: white;
 }
 
 .contact-desc {
-    text-align: center;
-    font-size: 20px;
-    line-height: 200%;
-    color: white;
+  text-align: center;
+  font-size: 20px;
+  line-height: 200%;
+  color: white;
 }
 
 .social-links-container {
-    width: 90%;
-    margin: auto;
-    padding-left: 32%;
+  width: 90%;
+  margin: auto;
+  padding-left: 32%;
 }
 
 .get-social {
-    font-size: 50px;
-    margin: 4%;
-    color: white;
+  font-size: 50px;
+  margin: 4%;
+  color: white;
 }
