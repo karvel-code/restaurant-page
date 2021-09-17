@@ -85,12 +85,12 @@
 }
 
 .social-links-container {
-    width: 100%;
+    width: 90%;
     margin: auto;
+    padding-left: 32%;
 }
 
 .get-social {
     font-size: 50px;
     margin: 4%;
-    
 }
