@@ -10,4 +10,6 @@ export function contactPage() {
     facebookLink.classList = "fab fa-facebook"
     const instagramLink = document.createElement("i")
     instagramLink.classList = "fab fa-instagram"
+    const twitterLink = document.createElement("i")
+    twitterLink.classList = "fab fa-twitter"
 }
