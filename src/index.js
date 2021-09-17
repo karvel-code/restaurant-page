@@ -25,7 +25,7 @@ content.append(heading)
 
   homeLink.addEventListener('click', () => { viewTab(myMainPage); });
   menuLink.addEventListener('click', () => { viewTab(myMenu); });
-  aboutLink.addEventListener('click', () => { viewTab(myMainPage); });
+  aboutLink.addEventListener('click', () => { viewTab(myAboutPage); });
   viewTab(myMainPage);
   
   
