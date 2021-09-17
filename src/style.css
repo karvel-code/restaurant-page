@@ -69,6 +69,15 @@
     margin-top: 5%;
 }
 
+.main-contact-div {
+    background-image: url("/assets/restaurant-2-business.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 90vh;
+    overflow: hidden;
+}
+
 .main-contact {
     width: 80%;
     margin:auto;
