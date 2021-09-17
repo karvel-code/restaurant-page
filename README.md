@@ -10,9 +10,9 @@ Is a simple restaurant Website
 
 This project is a simple restaurant page. It uses JavaScript to render all the DOM elements with the html file containing only the basic skeleton tags, i.e. html, title, body and a single div.
 
-![screenshot](./src/assets/Screenshot-1.png)
+![screenshot](./assets/Screenshot-1.png)
 -
-![screenshot](./src/assets/Screenshot-2.png)
+![screenshot](./assets/Screenshot-2.png)
 
 The DOM Elements are build mainly from JS:
 
@@ -28,7 +28,7 @@ The DOM Elements are build mainly from JS:
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link]( https://karvel-code.github.io/restaurant-page/)
 
 
 ## Getting Started
@@ -40,7 +40,7 @@ The DOM Elements are build mainly from JS:
 
 ### clone the repo.
 - in your terminal,  run
-``` git clone https://github.com/karvel-code/restaurant.git ```
+``` git clone https://github.com/karvel-code/restaurant-page.git ```
 - open the directory
 ``` cd resturant```
 - Open the ``` dist/index.html``` file in the browser.
