@@ -1,4 +1,4 @@
-function header() {
+const header = () => {
   const container = document.createElement('div');
   container.classList = 'navigation';
   const homeLink = document.createElement('a');

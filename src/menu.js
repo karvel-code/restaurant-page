@@ -1,6 +1,6 @@
 import steak from '../assets/steak.jpeg';
 
-function menuPage() {
+const menuPage = () => {
   const menuContainer = document.createElement('div');
   menuContainer.classList = 'menu-container';
 

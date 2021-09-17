@@ -1,4 +1,4 @@
-function contactPage() {
+const contactPage = () => {
   const mainContactDiv = document.createElement('section');
   mainContactDiv.classList = 'main-contact-div';
   const contacttDiv = document.createElement('div');
