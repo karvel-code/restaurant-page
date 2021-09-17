@@ -16,7 +16,7 @@
   \***************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"contactPage\": () => (/* binding */ contactPage)\n/* harmony export */ });\nfunction contactPage() {\r\n    const aboutDiv = document.createElement(\"div\")\r\n    const aboutTitle = document.createElement(\"h2\")\r\n    aboutTitle.innerHTML = \"About US\"\r\n\r\n    \r\n    // const socialLinksContainer = document.createElement(\"div\")\r\n    // const facebookLink = document.createElement(\"a\")\r\n}\n\n//# sourceURL=webpack://restaurant-page/./src/contact_us.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"contactPage\": () => (/* binding */ contactPage)\n/* harmony export */ });\nfunction contactPage() {\r\n    const contacttDiv = document.createElement(\"div\")\r\n    const contactTitle = document.createElement(\"h2\")\r\n    contactTitle.innerHTML = \"About US\"\r\n\r\n    \r\n    // const socialLinksContainer = document.createElement(\"div\")\r\n    // const facebookLink = document.createElement(\"a\")\r\n}\n\n//# sourceURL=webpack://restaurant-page/./src/contact_us.js?");
 
 /***/ }),
 
