@@ -7,6 +7,7 @@ export function contactPage() {
 
     
     const contactDesc = document.createElement("p")
+    contactDesc.classList = "contact-desc"
     contactDesc.innerText = "Feel free to reach out to us via our Phone no which is 0720183849. You can also get to us via any of our social media pages."
     const socialLinksContainer = document.createElement("div")
     const facebookLink = document.createElement("i")
