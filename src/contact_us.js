@@ -2,6 +2,7 @@ export function contactPage() {
     const contacttDiv = document.createElement("div")
     contacttDiv.classList = "main-contact"
     const contactTitle = document.createElement("h2")
+    contactTitle.classList = "contact-title"
     contactTitle.innerHTML = "About US"
 
     
