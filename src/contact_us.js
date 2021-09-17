@@ -4,7 +4,8 @@ export function contactPage() {
     contactTitle.innerHTML = "About US"
 
     
-    
+    const contactDesc = document.createElement("p")
+    contactDesc.innerText = "Feel free to reach out to us via our Phone no which is 0720183849. You can also get to us via any of our social media pages."
     const socialLinksContainer = document.createElement("div")
     const facebookLink = document.createElement("i")
     facebookLink.classList = "fab fa-facebook"
@@ -14,7 +15,7 @@ export function contactPage() {
     twitterLink.classList = "fab fa-twitter"
 
     socialLinksContainer.append(facebookLink, instagramLink, twitterLink)
-    contacttDiv.append(contactTitle, socialLinksContainer )
+    contacttDiv.append(contactTitle, contactDesc, socialLinksContainer)
 
     return contacttDiv
 }
